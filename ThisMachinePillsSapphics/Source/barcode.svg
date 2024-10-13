@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 57 59">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: Helvetica, Helvetica;
+        font-size: 8px;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="barcode">
+    <rect class="cls-3" width="57" height="59"/>
+    <rect class="cls-1" width="2" height="50"/>
+    <rect class="cls-1" x="3" width="1" height="50"/>
+    <rect class="cls-1" x="6" width="1" height="50"/>
+    <rect class="cls-1" x="11" width="3" height="50"/>
+    <rect class="cls-1" x="16" width="1" height="50"/>
+    <rect class="cls-1" x="19" width="2" height="50"/>
+    <rect class="cls-1" x="22" width="2" height="50"/>
+    <rect class="cls-1" x="26" width="1" height="50"/>
+    <rect class="cls-1" x="28" width="3" height="50"/>
+    <rect class="cls-1" x="33" width="1" height="50"/>
+    <rect class="cls-1" x="36" width="1" height="50"/>
+    <rect class="cls-1" x="38" width="2" height="50"/>
+    <rect class="cls-1" x="44" width="2" height="50"/>
+    <rect class="cls-1" x="49" width="3" height="50"/>
+    <rect class="cls-1" x="53" width="1" height="50"/>
+    <rect class="cls-1" x="55" width="2" height="50"/>
+    <text class="cls-2" transform="translate(25.16 59)"><tspan x="0" y="0">:3</tspan></text>
+  </g>
+</svg>
