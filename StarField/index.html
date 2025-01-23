@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Erin Rose</title>
+    <link rel="stylesheet" href="Styles/Main.css">
+    <link rel="stylesheet" href="Styles/Theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2e0202" media="(prefers-color-scheme: dark)">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="width: 100%; min-width: 1000px; height: 100%;">
+      <g id="group" fill="none" fill-rule="evenodd">
+      </g>
+  </svg>
+  </body>
+  <script>
+    var stars = 250;
+var sizeVariance = .5; var starSize = 2;
+var opacityVariance = 1; var w = 100;
+var h = 100;
+
+var g = document.getElementById("group");
+
+for (var i = 0 ; i < stars ; i++){
+    var x = getRandomNumber(0,w) + "%";
+    var y = getRandomNumber(0,h) + "%";
+    var r = getRandomNumber((starSize - (starSize*sizeVariance)),(starSize + (starSize*sizeVariance)));
+    var o = getRandomNumber((1 - opacityVariance),1); g.append(makeStar(x,y,r,o));
+}
+
+function makeStar(x,y,r,o){
+    var s = document.createElementNS("http://www.w3.org/2000/svg", "rect"); s.setAttribute("x",x);
+    s.setAttribute("y",y);
+    s.setAttribute("height",r);
+    s.setAttribute("widthx",r);
+
+}
+
+function makeStar(x,y,r,o){
+    var s = document.createElementNS("http://www.w3.org/2000/svg", "rect"); s.setAttribute("x",x);
+    s.setAttribute("y",y);
+    s.setAttribute("height",r);
+    s.setAttribute("width",r);
+    s.setAttribute("fill","var(--white)"); s.setAttribute("fill-opacity",o); return s;
+}
+
+function getRandomNumber(min,max){ 
+    var dist = max - min;
+    return min + (Math.random()*dist); 
+}
+  </script>
+</html>
+
